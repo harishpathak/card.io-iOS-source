@@ -222,13 +222,10 @@ NSString * const CardIOScanningOrientationAnimationDuration = @"CardIOScanningOr
       
       CardIOCreditCardInfo *cardInfo = [[CardIOCreditCardInfo alloc] init];
       
-      //Harry commemented
-//      self.cardImage = [processedFrame imageWithGrayscale:NO];
-      
       //Harry
-      self.cardImage = [processedFrame debugCardImage];
-      UIImage *img = self.cardImage;
-      
+//      self.cardImage = [processedFrame imageWithGrayscale:NO];
+      self.cardImage = [processedFrame imageWithGrayscale:YES];
+
       cardInfo.cardImage = self.cardImage;
       
       [self.config.scanReport reportEventWithLabel:@"scan_detection" withScanner:processedFrame.scanner];
