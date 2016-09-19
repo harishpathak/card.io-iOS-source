@@ -212,12 +212,23 @@ NSString * const CardIOScanningOrientationAnimationDuration = @"CardIOScanningOr
 
 - (void)didDetectCard:(CardIOVideoFrame *)processedFrame {
   if(processedFrame.foundAllEdges && processedFrame.focusOk) {
+    
+    //Harry
+    self.detectionMode = CardIODetectionModeCardImageOnly;
+    
     if(self.detectionMode == CardIODetectionModeCardImageOnly) {
       [self stopSession];
       [self vibrate];
       
       CardIOCreditCardInfo *cardInfo = [[CardIOCreditCardInfo alloc] init];
-      self.cardImage = [processedFrame imageWithGrayscale:NO];
+      
+      //Harry commemented
+//      self.cardImage = [processedFrame imageWithGrayscale:NO];
+      
+      //Harry
+      self.cardImage = [processedFrame debugCardImage];
+      UIImage *img = self.cardImage;
+      
       cardInfo.cardImage = self.cardImage;
       
       [self.config.scanReport reportEventWithLabel:@"scan_detection" withScanner:processedFrame.scanner];

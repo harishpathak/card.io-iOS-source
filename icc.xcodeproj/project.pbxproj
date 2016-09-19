@@ -2166,6 +2166,10 @@
 					};
 					92263D6F1B83ACBB003FE678 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8Z3NJ84MJU;
+					};
+					A553B6E51BE32273006DF551 = {
+						DevelopmentTeam = 8Z3NJ84MJU;
 					};
 				};
 			};
@@ -2527,7 +2531,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54AD1BE2F7A800B669FB /* AdHoc.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: harish.pathak.ngi@gmail.com (35V44QTQ9M)";
 				OTHER_CFLAGS = "";
+				PROVISIONING_PROFILE = "71058e4c-6cd8-4b02-9747-a376783540af";
 			};
 			name = AdHoc;
 		};
@@ -2577,6 +2583,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BE1BE2FEEC00B669FB /* CardIO_Framework_Debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -2584,6 +2593,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BF1BE2FEEC00B669FB /* CardIO_Framework_Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -2591,6 +2603,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BD1BE2FEEC00B669FB /* CardIO_Framework_Adhoc.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				PROVISIONING_PROFILE = "";
 			};
 			name = AdHoc;
 		};
@@ -2598,6 +2613,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B41BE2F7A800B669FB /* icc_Debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.demoCardIO;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -2605,6 +2624,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B51BE2F7A800B669FB /* icc_Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.demoCardIO;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -2612,6 +2635,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B31BE2F7A800B669FB /* icc_AdHoc.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.demoCardIO;
+				PROVISIONING_PROFILE = "";
 			};
 			name = AdHoc;
 		};
@@ -2619,7 +2646,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B21BE2F7A800B669FB /* Debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: harish.pathak.ngi@gmail.com (35V44QTQ9M)";
 				OTHER_CFLAGS = "";
+				PROVISIONING_PROFILE = "71058e4c-6cd8-4b02-9747-a376783540af";
 			};
 			name = Debug;
 		};
@@ -2627,7 +2656,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B81BE2F7A800B669FB /* Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: harish.pathak.ngi@gmail.com (35V44QTQ9M)";
 				OTHER_CFLAGS = "";
+				PROVISIONING_PROFILE = "71058e4c-6cd8-4b02-9747-a376783540af";
 			};
 			name = Release;
 		};
