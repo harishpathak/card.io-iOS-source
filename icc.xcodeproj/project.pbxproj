@@ -2169,7 +2169,7 @@
 						DevelopmentTeam = 8Z3NJ84MJU;
 					};
 					A553B6E51BE32273006DF551 = {
-						DevelopmentTeam = 8Z3NJ84MJU;
+						DevelopmentTeam = 5BEAANRWTZ;
 					};
 				};
 			};
@@ -2531,9 +2531,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54AD1BE2F7A800B669FB /* AdHoc.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: harish.pathak.ngi@gmail.com (35V44QTQ9M)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Manoj Singh (3U4WQHDKRC)";
 				OTHER_CFLAGS = "";
-				PROVISIONING_PROFILE = "71058e4c-6cd8-4b02-9747-a376783540af";
+				PROVISIONING_PROFILE = "77a211f6-c309-4fda-b987-874e341b4ab9";
 			};
 			name = AdHoc;
 		};
@@ -2615,7 +2615,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.demoCardIO;
+				PRODUCT_BUNDLE_IDENTIFIER = acidaes.CRMNext.demoCardIO;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -2626,7 +2626,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.demoCardIO;
+				PRODUCT_BUNDLE_IDENTIFIER = acidaes.CRMNext.demoCardIO;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -2637,7 +2637,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.demoCardIO;
+				PRODUCT_BUNDLE_IDENTIFIER = acidaes.CRMNext.demoCardIO;
 				PROVISIONING_PROFILE = "";
 			};
 			name = AdHoc;
@@ -2646,9 +2646,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B21BE2F7A800B669FB /* Debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: harish.pathak.ngi@gmail.com (35V44QTQ9M)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Manoj Singh (3U4WQHDKRC)";
 				OTHER_CFLAGS = "";
-				PROVISIONING_PROFILE = "71058e4c-6cd8-4b02-9747-a376783540af";
+				PROVISIONING_PROFILE = "77a211f6-c309-4fda-b987-874e341b4ab9";
 			};
 			name = Debug;
 		};
@@ -2656,9 +2656,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B81BE2F7A800B669FB /* Release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: harish.pathak.ngi@gmail.com (35V44QTQ9M)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Manoj Singh (3U4WQHDKRC)";
 				OTHER_CFLAGS = "";
-				PROVISIONING_PROFILE = "71058e4c-6cd8-4b02-9747-a376783540af";
+				PROVISIONING_PROFILE = "77a211f6-c309-4fda-b987-874e341b4ab9";
 			};
 			name = Release;
 		};
