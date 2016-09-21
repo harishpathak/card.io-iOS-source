@@ -36,14 +36,14 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>To Scan cards</string>
-	<key>NSMainNibFile</key>
-	<string>MainWindow</string>
 	<key>NSMainNibFile~ipad</key>
 	<string>MainWindow~iPad</string>
 	<key>UIApplicationExitsOnSuspend</key>
 	<false/>
 	<key>UIFileSharingEnabled</key>
 	<true/>
+	<key>UIMainStoryboardFile</key>
+	<string>MainStoryboard</string>
 	<key>UIPrerenderedIcon</key>
 	<true/>
 	<key>UIStatusBarHidden</key>

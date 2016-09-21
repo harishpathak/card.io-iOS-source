@@ -105,8 +105,10 @@
   self.cardIOView.scanExpiry = self.context.collectExpiry && self.context.scanExpiry;
   self.cardIOView.scanOverlayView = self.context.scanOverlayView;
 
+  //Harry
+  self.cardIOView.detectionMode = CardIODetectionModeCardImageOnly;//self.context.detectionMode;
   self.cardIOView.detectionMode = self.context.detectionMode;
-
+  
   [self.view addSubview:self.cardIOView];
 
   _cancelButton = [self makeButtonWithTitle:CardIOLocalizedString(@"cancel", self.context.languageOrLocale) // Cancel

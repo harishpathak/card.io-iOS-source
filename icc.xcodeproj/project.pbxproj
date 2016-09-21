@@ -13,7 +13,6 @@
 		3E9618E019C8EBBD0023CDBB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9618DF19C8EBBD0023CDBB /* AudioToolbox.framework */; };
 		3E9618E219C8EBC50023CDBB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9618E119C8EBC50023CDBB /* CoreMedia.framework */; };
 		3E9618E419C8EBCB0023CDBB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9618E319C8EBCB0023CDBB /* MobileCoreServices.framework */; };
-		3E9618E819C8F6C70023CDBB /* MainWindow~iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E9618E719C8F6C70023CDBB /* MainWindow~iPad.xib */; };
 		3E9F4BDE181F03F300F33B48 /* CardIOTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 030735FF134167C000663C26 /* CardIOTableViewCell.m */; };
 		3E9F4BDF181F03F300F33B48 /* CardIOPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0307CFF213304B210019C8F7 /* CardIOPaymentViewController.m */; };
 		3E9F4BE0181F03F300F33B48 /* CardIOVideoFrame.mm in Sources */ = {isa = PBXBuildFile; fileRef = 036DD66012663A6300EB719A /* CardIOVideoFrame.mm */; };
@@ -86,8 +85,7 @@
 		3E9F4C42181F03F300F33B48 /* CardIOCreditCardInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1824386144CF73400829B91 /* CardIOCreditCardInfo.h */; };
 		3E9F4C43181F03F300F33B48 /* CardIOPaymentViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1824387144CF73400829B91 /* CardIOPaymentViewController.h */; };
 		3E9F4C44181F03F300F33B48 /* CardIOPaymentViewControllerDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1824388144CF73400829B91 /* CardIOPaymentViewControllerDelegate.h */; };
-		3E9F4C4E181F07B700F33B48 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		3E9F4C50181F07B700F33B48 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036DD69E126654ED00EB719A /* RootViewController.xib */; };
+		3E9F4C50181F07B700F33B48 /* RootViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036DD69E126654ED00EB719A /* RootViewController1.xib */; };
 		3E9F4C51181F07B700F33B48 /* green_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 036DD6C31266574A00EB719A /* green_button@2x.png */; };
 		3E9F4C52181F07B700F33B48 /* green_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 036DD6C41266574A00EB719A /* green_button.png */; };
 		3E9F4C53181F07B700F33B48 /* red_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 036DD6C51266574A00EB719A /* red_button@2x.png */; };
@@ -98,7 +96,6 @@
 		3E9F4C58181F07B700F33B48 /* yak_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0387A5C91346D97200CE3230 /* yak_icon.png */; };
 		3E9F4C5A181F07B700F33B48 /* yak_icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 032E420C134FA49400830810 /* yak_icon~ipad.png */; };
 		3E9F4C5C181F07B700F33B48 /* card_io_logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7CA2517BD94F300D54383 /* card_io_logo_black.png */; };
-		3E9F4C5D181F07B700F33B48 /* RootViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DAEBCD17C8258B0041A4E6 /* RootViewController~ipad.xib */; };
 		3E9F4C5F181F07B700F33B48 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B55FAACD1610F3B20042B9FB /* Default-568h@2x.png */; };
 		3E9F4C60181F07B700F33B48 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B55FAACE1610F3B20042B9FB /* Default.png */; };
 		3E9F4C61181F07B700F33B48 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B55FAACF1610F3B20042B9FB /* Default@2x.png */; };
@@ -123,7 +120,6 @@
 		4358E6F91BFBBCBB007E07C3 /* CardIOCardholderNameTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358E6F71BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.m */; };
 		4358E6FA1BFBBCCC007E07C3 /* CardIOCardholderNameTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4358E6F61BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.h */; };
 		438FDD141BFD1BF3007DC6CB /* CardIOCardholderNameTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358E6F71BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.m */; };
-		55CD7FA818EF777F00BB381A /* iccChoicesSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CD7FA718EF777F00BB381A /* iccChoicesSelectViewController.m */; };
 		92122C301B8C3865004D705E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92122C2F1B8C3865004D705E /* OpenGLES.framework */; };
 		92122C361B8C38E9004D705E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92263E311B84283D003FE678 /* UIKit.framework */; };
 		92122C391B8C393D004D705E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9618E119C8EBC50023CDBB /* CoreMedia.framework */; };
@@ -231,21 +227,18 @@
 		A50A54D21BE30A2800B669FB /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E587F8A18C7E165000C1D3A /* CardIODetectionMode.h */; };
 		A50A54D31BE30A4200B669FB /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED8A876197DBDA900069761 /* CardIOUtilities.h */; };
 		A50A54D41BE30AB300B669FB /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED00DA11BD8D60900FD2DB4 /* UIImage+ImageEffects.h */; };
-		A553B6E91BE32273006DF551 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		A553B6EA1BE32273006DF551 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036DD69E126654ED00EB719A /* RootViewController.xib */; };
+		A553B6EA1BE32273006DF551 /* RootViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036DD69E126654ED00EB719A /* RootViewController1.xib */; };
 		A553B6EB1BE32273006DF551 /* green_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 036DD6C31266574A00EB719A /* green_button@2x.png */; };
 		A553B6EC1BE32273006DF551 /* green_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 036DD6C41266574A00EB719A /* green_button.png */; };
 		A553B6ED1BE32273006DF551 /* red_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 036DD6C51266574A00EB719A /* red_button@2x.png */; };
 		A553B6EE1BE32273006DF551 /* AdHocEntitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E0133E3198AD6C5009E579A /* AdHocEntitlements.plist */; };
 		A553B6EF1BE32273006DF551 /* red_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 036DD6C61266574A00EB719A /* red_button.png */; };
 		A553B6F01BE32273006DF551 /* yellow_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CA8C5D130E1660006042CE /* yellow_button.png */; };
-		A553B6F11BE32273006DF551 /* MainWindow~iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E9618E719C8F6C70023CDBB /* MainWindow~iPad.xib */; };
 		A553B6F21BE32273006DF551 /* yellow_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CA8C5E130E1660006042CE /* yellow_button@2x.png */; };
 		A553B6F31BE32273006DF551 /* yak_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0387A5C81346D97200CE3230 /* yak_icon@2x.png */; };
 		A553B6F41BE32273006DF551 /* yak_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0387A5C91346D97200CE3230 /* yak_icon.png */; };
 		A553B6F51BE32273006DF551 /* yak_icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 032E420C134FA49400830810 /* yak_icon~ipad.png */; };
 		A553B6F61BE32273006DF551 /* card_io_logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7CA2517BD94F300D54383 /* card_io_logo_black.png */; };
-		A553B6F71BE32273006DF551 /* RootViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DAEBCD17C8258B0041A4E6 /* RootViewController~ipad.xib */; };
 		A553B6F81BE32273006DF551 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B55FAACD1610F3B20042B9FB /* Default-568h@2x.png */; };
 		A553B6F91BE32273006DF551 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B55FAACE1610F3B20042B9FB /* Default.png */; };
 		A553B6FA1BE32273006DF551 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B55FAACF1610F3B20042B9FB /* Default@2x.png */; };
@@ -259,7 +252,6 @@
 		A553B7031BE32273006DF551 /* iccAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iccAppDelegate.m */; };
 		A553B7041BE32273006DF551 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036DD69D126654ED00EB719A /* RootViewController.m */; };
 		A553B7051BE32273006DF551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0133E6198AD75C009E579A /* main.m */; };
-		A553B7061BE32273006DF551 /* iccChoicesSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CD7FA718EF777F00BB381A /* iccChoicesSelectViewController.m */; };
 		A553B7071BE32273006DF551 /* TestGeneratedModels.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ED9F6DF1A23CDD800BD07F8 /* TestGeneratedModels.mm */; };
 		A553B7091BE32273006DF551 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED00DA71BD8D78200FD2DB4 /* Accelerate.framework */; };
 		A553B70A1BE32273006DF551 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9618DF19C8EBBD0023CDBB /* AudioToolbox.framework */; };
@@ -268,6 +260,8 @@
 		A553B70D1BE32273006DF551 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9618E319C8EBCB0023CDBB /* MobileCoreServices.framework */; };
 		A553B7161BE322A1006DF551 /* CardIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92263D701B83ACBB003FE678 /* CardIO.framework */; };
 		A553B7171BE322A1006DF551 /* CardIO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92263D701B83ACBB003FE678 /* CardIO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B107B2701D928EF80032FFB7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B107B26F1D928EF80032FFB7 /* MainStoryboard.storyboard */; };
+		B107B2731D92AC470032FFB7 /* iccChoicesSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B107B2721D92AC470032FFB7 /* iccChoicesSelectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -384,7 +378,7 @@
 		036DD66012663A6300EB719A /* CardIOVideoFrame.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = CardIOVideoFrame.mm; sourceTree = "<group>"; };
 		036DD69C126654ED00EB719A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/RootViewController.h; sourceTree = "<group>"; };
 		036DD69D126654ED00EB719A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = RootViewController.m; path = Classes/RootViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		036DD69E126654ED00EB719A /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = Classes/RootViewController.xib; sourceTree = "<group>"; };
+		036DD69E126654ED00EB719A /* RootViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController1.xib; path = Classes/RootViewController1.xib; sourceTree = "<group>"; };
 		036DD6C31266574A00EB719A /* green_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green_button@2x.png"; sourceTree = "<group>"; };
 		036DD6C41266574A00EB719A /* green_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_button.png; sourceTree = "<group>"; };
 		036DD6C51266574A00EB719A /* red_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_button@2x.png"; sourceTree = "<group>"; };
@@ -673,7 +667,6 @@
 		03F8A48E1256AA4700AB3AF3 /* CardIOCGGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCGGeometry.h; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* iccAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iccAppDelegate.h; path = Classes/iccAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* iccAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iccAppDelegate.m; path = Classes/iccAppDelegate.m; sourceTree = "<group>"; };
-		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
 		2DE7CA2517BD94F300D54383 /* card_io_logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card_io_logo_black.png; path = Resources/card_io_logo_black.png; sourceTree = "<group>"; };
 		2DE7CA2617BD94F300D54383 /* card_io_logo_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "card_io_logo_black@2x.png"; path = "Resources/card_io_logo_black@2x.png"; sourceTree = "<group>"; };
 		2DF9307616557ED7000936BA /* CardIOBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOBundle.h; path = Classes/CardIOBundle.h; sourceTree = "<group>"; };
@@ -729,7 +722,6 @@
 		3E9618DF19C8EBBD0023CDBB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3E9618E119C8EBC50023CDBB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		3E9618E319C8EBCB0023CDBB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		3E9618E719C8F6C70023CDBB /* MainWindow~iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "MainWindow~iPad.xib"; path = "Resources/MainWindow~iPad.xib"; sourceTree = "<group>"; };
 		3E9F4C49181F03F300F33B48 /* libCardIO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCardIO.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9F4C7F181F07B700F33B48 /* icc-static.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "icc-static.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA0739F16E6C26C00CA6E7F /* simulated_camera_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simulated_camera_0.png; sourceTree = "<group>"; };
@@ -766,9 +758,6 @@
 		5528BBC516F7DC14005D5011 /* simulated_camera_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simulated_camera_5.png; sourceTree = "<group>"; };
 		558BAE5E17CC255E007EE3BC /* CardIOIccVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardIOIccVersion.h; path = Classes/CardIOIccVersion.h; sourceTree = "<group>"; };
 		558BAE5F17CC2878007EE3BC /* CardIOIccVersion.h.template */ = {isa = PBXFileReference; lastKnownFileType = text; name = CardIOIccVersion.h.template; path = Classes/CardIOIccVersion.h.template; sourceTree = "<group>"; };
-		55CD7FA618EF777F00BB381A /* iccChoicesSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iccChoicesSelectViewController.h; path = Classes/iccChoicesSelectViewController.h; sourceTree = "<group>"; };
-		55CD7FA718EF777F00BB381A /* iccChoicesSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iccChoicesSelectViewController.m; path = Classes/iccChoicesSelectViewController.m; sourceTree = "<group>"; };
-		55DAEBCD17C8258B0041A4E6 /* RootViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "RootViewController~ipad.xib"; path = "Classes/RootViewController~ipad.xib"; sourceTree = "<group>"; };
 		844D4D5914469AB20070FCB3 /* CardIOStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOStyles.h; path = Classes/CardIOStyles.h; sourceTree = "<group>"; };
 		8487783015A39BCB00B08B41 /* CardIOAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIOAnalytics.h; path = Classes/CardIOAnalytics.h; sourceTree = "<group>"; };
 		8487783115A39BCB00B08B41 /* CardIOAnalytics.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; name = CardIOAnalytics.mm; path = Classes/CardIOAnalytics.mm; sourceTree = "<group>"; };
@@ -821,6 +810,9 @@
 		A553B71B1BE32664006DF551 /* icc_Static_Library_Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = icc_Static_Library_Debug.xcconfig; path = build_configs/icc_Static_Library_Debug.xcconfig; sourceTree = "<group>"; };
 		A553B71C1BE32664006DF551 /* icc_Static_Library_Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = icc_Static_Library_Release.xcconfig; path = build_configs/icc_Static_Library_Release.xcconfig; sourceTree = "<group>"; };
 		A553B71D1BE32664006DF551 /* icc_Static_Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = icc_Static_Library.xcconfig; path = build_configs/icc_Static_Library.xcconfig; sourceTree = "<group>"; };
+		B107B26F1D928EF80032FFB7 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B107B2711D92AC470032FFB7 /* iccChoicesSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iccChoicesSelectViewController.h; path = Classes/iccChoicesSelectViewController.h; sourceTree = "<group>"; };
+		B107B2721D92AC470032FFB7 /* iccChoicesSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iccChoicesSelectViewController.m; path = Classes/iccChoicesSelectViewController.m; sourceTree = "<group>"; };
 		B55FAACD1610F3B20042B9FB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B55FAACE1610F3B20042B9FB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B55FAACF1610F3B20042B9FB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -985,12 +977,11 @@
 		0305C5831345272000A315B7 /* View controllers */ = {
 			isa = PBXGroup;
 			children = (
-				55CD7FA618EF777F00BB381A /* iccChoicesSelectViewController.h */,
-				55CD7FA718EF777F00BB381A /* iccChoicesSelectViewController.m */,
+				B107B2711D92AC470032FFB7 /* iccChoicesSelectViewController.h */,
+				B107B2721D92AC470032FFB7 /* iccChoicesSelectViewController.m */,
 				036DD69C126654ED00EB719A /* RootViewController.h */,
 				036DD69D126654ED00EB719A /* RootViewController.m */,
-				036DD69E126654ED00EB719A /* RootViewController.xib */,
-				55DAEBCD17C8258B0041A4E6 /* RootViewController~ipad.xib */,
+				036DD69E126654ED00EB719A /* RootViewController1.xib */,
 			);
 			name = "View controllers";
 			sourceTree = "<group>";
@@ -1847,8 +1838,7 @@
 				3E0133E6198AD75C009E579A /* main.m */,
 				1D3623240D0F684500981E51 /* iccAppDelegate.h */,
 				1D3623250D0F684500981E51 /* iccAppDelegate.m */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				3E9618E719C8F6C70023CDBB /* MainWindow~iPad.xib */,
+				B107B26F1D928EF80032FFB7 /* MainStoryboard.storyboard */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -2213,21 +2203,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E9F4C4E181F07B700F33B48 /* MainWindow.xib in Resources */,
-				3E9F4C50181F07B700F33B48 /* RootViewController.xib in Resources */,
+				3E9F4C50181F07B700F33B48 /* RootViewController1.xib in Resources */,
 				3E9F4C51181F07B700F33B48 /* green_button@2x.png in Resources */,
 				3E9F4C52181F07B700F33B48 /* green_button.png in Resources */,
 				3E9F4C53181F07B700F33B48 /* red_button@2x.png in Resources */,
 				3E0133E4198AD6C5009E579A /* AdHocEntitlements.plist in Resources */,
 				3E9F4C54181F07B700F33B48 /* red_button.png in Resources */,
 				3E9F4C55181F07B700F33B48 /* yellow_button.png in Resources */,
-				3E9618E819C8F6C70023CDBB /* MainWindow~iPad.xib in Resources */,
 				3E9F4C56181F07B700F33B48 /* yellow_button@2x.png in Resources */,
 				3E9F4C57181F07B700F33B48 /* yak_icon@2x.png in Resources */,
 				3E9F4C58181F07B700F33B48 /* yak_icon.png in Resources */,
 				3E9F4C5A181F07B700F33B48 /* yak_icon~ipad.png in Resources */,
 				3E9F4C5C181F07B700F33B48 /* card_io_logo_black.png in Resources */,
-				3E9F4C5D181F07B700F33B48 /* RootViewController~ipad.xib in Resources */,
 				3E9F4C5F181F07B700F33B48 /* Default-568h@2x.png in Resources */,
 				3E9F4C60181F07B700F33B48 /* Default.png in Resources */,
 				3E9F4C61181F07B700F33B48 /* Default@2x.png in Resources */,
@@ -2252,21 +2239,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A553B6E91BE32273006DF551 /* MainWindow.xib in Resources */,
-				A553B6EA1BE32273006DF551 /* RootViewController.xib in Resources */,
+				A553B6EA1BE32273006DF551 /* RootViewController1.xib in Resources */,
 				A553B6EB1BE32273006DF551 /* green_button@2x.png in Resources */,
 				A553B6EC1BE32273006DF551 /* green_button.png in Resources */,
 				A553B6ED1BE32273006DF551 /* red_button@2x.png in Resources */,
 				A553B6EE1BE32273006DF551 /* AdHocEntitlements.plist in Resources */,
 				A553B6EF1BE32273006DF551 /* red_button.png in Resources */,
 				A553B6F01BE32273006DF551 /* yellow_button.png in Resources */,
-				A553B6F11BE32273006DF551 /* MainWindow~iPad.xib in Resources */,
+				B107B2701D928EF80032FFB7 /* MainStoryboard.storyboard in Resources */,
 				A553B6F21BE32273006DF551 /* yellow_button@2x.png in Resources */,
 				A553B6F31BE32273006DF551 /* yak_icon@2x.png in Resources */,
 				A553B6F41BE32273006DF551 /* yak_icon.png in Resources */,
 				A553B6F51BE32273006DF551 /* yak_icon~ipad.png in Resources */,
 				A553B6F61BE32273006DF551 /* card_io_logo_black.png in Resources */,
-				A553B6F71BE32273006DF551 /* RootViewController~ipad.xib in Resources */,
 				A553B6F81BE32273006DF551 /* Default-568h@2x.png in Resources */,
 				A553B6F91BE32273006DF551 /* Default.png in Resources */,
 				A553B6FA1BE32273006DF551 /* Default@2x.png in Resources */,
@@ -2421,7 +2406,6 @@
 				3E9F4C6B181F07B700F33B48 /* iccAppDelegate.m in Sources */,
 				3E9F4C6C181F07B700F33B48 /* RootViewController.m in Sources */,
 				3E0133E7198AD75C009E579A /* main.m in Sources */,
-				55CD7FA818EF777F00BB381A /* iccChoicesSelectViewController.m in Sources */,
 				3EE558981A5B4BC60094929A /* TestGeneratedModels.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2485,7 +2469,7 @@
 				A553B7031BE32273006DF551 /* iccAppDelegate.m in Sources */,
 				A553B7041BE32273006DF551 /* RootViewController.m in Sources */,
 				A553B7051BE32273006DF551 /* main.m in Sources */,
-				A553B7061BE32273006DF551 /* iccChoicesSelectViewController.m in Sources */,
+				B107B2731D92AC470032FFB7 /* iccChoicesSelectViewController.m in Sources */,
 				A553B7071BE32273006DF551 /* TestGeneratedModels.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,7 +13,7 @@
 
 @implementation iccChoicesSelectViewController
 
-- (instancetype)initWithTitle:(NSString *)title choices:(NSArray *)choices currentSelection:(NSString *)currentSelection completion:(PPChoiceSelected)completed {
+- (instancetype)initWithTitle:(NSString *)title choices:(NSArray *)choices currentSelection:(NSString *)currentSelection completion:(PPChoiceSelected)completed{
   if ((self = [super initWithStyle:UITableViewStyleGrouped])) {
     self.title = title;
     _choices = choices;

@@ -3,10 +3,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "iccAppDelegate.h"
 
 int main(int argc, char *argv[]) {
   @autoreleasepool {
-    int retVal = UIApplicationMain(argc, argv, nil, nil);
+    //Harry
+//    int retVal = UIApplicationMain(argc, argv, nil, nil);
+    int retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([iccAppDelegate class]));
     return retVal;
   }
 }

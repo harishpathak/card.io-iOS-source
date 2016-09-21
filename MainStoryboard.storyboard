@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="P7P-9p-JCR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="Jt6-x0-34k">
+            <objects>
+                <viewController id="P7P-9p-JCR" customClass="RootViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u6a-12-VsH"/>
+                        <viewControllerLayoutGuide type="bottom" id="5PN-v4-iPN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rZT-Mw-qIW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Hn-o4-4eh">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LW-tt-YlA">
+                                        <rect key="frame" x="0.0" y="269" width="114" height="33"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
+                                        <state key="normal" title="Scan (view)" backgroundImage="green_button.png">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="scanPicoPika" destination="P7P-9p-JCR" eventType="touchUpInside" id="3cW-Wv-xnr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPu-cQ-ZY1">
+                                        <rect key="frame" x="115" y="268" width="102" height="34"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
+                                        <state key="normal" title="Scan (vc)" backgroundImage="green_button.png">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="scan" destination="P7P-9p-JCR" eventType="touchUpInside" id="6hX-Zk-WBl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HgY-1W-Swz">
+                                        <rect key="frame" x="220" y="269" width="100" height="33"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
+                                        <state key="normal" title="I18n test" backgroundImage="yellow_button.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="doI18n" destination="P7P-9p-JCR" eventType="touchUpInside" id="4nI-91-Jst"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="No cam" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="lBv-ho-8EO">
+                                        <rect key="frame" x="7" y="11" width="75" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bO3-eQ-Ll0" userLabel="Manual Switch">
+                                        <rect key="frame" x="93" y="5" width="51" height="31"/>
+                                    </switch>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Expiry" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ypt-el-tNa">
+                                        <rect key="frame" x="165" y="11" width="60" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lHv-So-nJg" userLabel="Expiry Switch">
+                                        <rect key="frame" x="255" y="5" width="51" height="31"/>
+                                    </switch>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="CVV" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="rPW-tF-KzS">
+                                        <rect key="frame" x="7" y="44" width="87" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JXZ-ff-Ir5" userLabel="CVV Switch">
+                                        <rect key="frame" x="93" y="39" width="51" height="31"/>
+                                    </switch>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Zip" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="C9q-ZA-x88">
+                                        <rect key="frame" x="165" y="44" width="60" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Jcp-wb-prL" userLabel="Zip Switch">
+                                        <rect key="frame" x="255" y="39" width="51" height="31"/>
+                                    </switch>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Scan" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ExX-Br-3Nn">
+                                        <rect key="frame" x="7" y="77" width="73" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLp-zV-n4D" userLabel="Scan Switch">
+                                        <rect key="frame" x="93" y="72" width="51" height="31"/>
+                                    </switch>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Confirm" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="MKo-AW-WmR">
+                                        <rect key="frame" x="165" y="110" width="87" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6vN-Py-26x" userLabel="Confirm Switch">
+                                        <rect key="frame" x="255" y="105" width="51" height="31"/>
+                                    </switch>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="No kb" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="mcQ-9N-U5s">
+                                        <rect key="frame" x="7" y="110" width="73" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gem-EK-gf8" userLabel="No Manual Switch">
+                                        <rect key="frame" x="93" y="105" width="51" height="31"/>
+                                    </switch>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Redact" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="fcY-Xg-dek">
+                                        <rect key="frame" x="165" y="144" width="87" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Hide Image" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="gPu-wL-V1J">
+                                        <rect key="frame" x="165" y="176" width="87" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aRk-mh-ztH" userLabel="Hide Image Switch">
+                                        <rect key="frame" x="255" y="171" width="51" height="31"/>
+                                    </switch>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="A/B test" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="tqo-pA-ZDV">
+                                        <rect key="frame" x="7" y="176" width="87" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HBf-0L-kmF" userLabel="AB Testing Switch">
+                                        <rect key="frame" x="93" y="171" width="51" height="31"/>
+                                    </switch>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="card_io_logo_black.png" translatesAutoresizingMaskIntoConstraints="NO" id="bcL-2t-CgQ">
+                                        <rect key="frame" x="7" y="141" width="40" height="25"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Zwg-T1-yaq" userLabel="card.io logo switch">
+                                        <rect key="frame" x="93" y="138" width="51" height="31"/>
+                                    </switch>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hVm-sa-T9u">
+                                        <rect key="frame" x="53" y="338" width="214" height="135"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pz-rb-3wa">
+                                        <rect key="frame" x="20" y="310" width="280" height="162"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XJY-8K-iJb" customClass="CardIOView">
+                                        <rect key="frame" x="50" y="327" width="220" height="145"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="headTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1J-7k-0mv">
+                                        <rect key="frame" x="93" y="238" width="135" height="30"/>
+                                        <state key="normal" title="Language [en]">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="languageChangeAction:" destination="P7P-9p-JCR" eventType="touchUpInside" id="7Fa-AE-IqA"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Duration" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ocL-UF-Wgp">
+                                        <rect key="frame" x="7" y="209" width="73" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1.0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p6P-3S-IXR">
+                                        <rect key="frame" x="93" y="205" width="53" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="WKs-oa-HiT">
+                                        <rect key="frame" x="165" y="77" width="60" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qUt-kq-Ymb" userLabel="Zip Switch">
+                                        <rect key="frame" x="255" y="72" width="51" height="31"/>
+                                    </switch>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Zip # Only" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="GBh-5Z-k2H">
+                                        <rect key="frame" x="165" y="210" width="99" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eU5-m3-5kU" userLabel="Zip Numeric Only Switch">
+                                        <rect key="frame" x="255" y="205" width="51" height="31"/>
+                                    </switch>
+                                    <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tMl-Ty-Mrw" userLabel="Redact Switch">
+                                        <rect key="frame" x="255" y="138" width="51" height="31"/>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5PN-v4-iPN" firstAttribute="top" secondItem="3Hn-o4-4eh" secondAttribute="bottom" id="88c-PT-dNw"/>
+                            <constraint firstItem="3Hn-o4-4eh" firstAttribute="leading" secondItem="rZT-Mw-qIW" secondAttribute="leading" id="VEh-4C-zna"/>
+                            <constraint firstItem="3Hn-o4-4eh" firstAttribute="top" secondItem="u6a-12-VsH" secondAttribute="bottom" id="b8V-rk-Yir"/>
+                            <constraint firstAttribute="trailing" secondItem="3Hn-o4-4eh" secondAttribute="trailing" id="fcC-52-vx0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cardImageView" destination="hVm-sa-T9u" id="WpR-Nf-UUi"/>
+                        <outlet property="confirmSwitch" destination="6vN-Py-26x" id="ook-0t-Dug"/>
+                        <outlet property="cvvSwitch" destination="JXZ-ff-Ir5" id="FHA-qd-XRD"/>
+                        <outlet property="disableManualEntrySwitch" destination="Gem-EK-gf8" id="b5v-zW-Vc9"/>
+                        <outlet property="doABTestingSwitch" destination="HBf-0L-kmF" id="49o-ea-aL4"/>
+                        <outlet property="expirySwitch" destination="lHv-So-nJg" id="t5Y-CI-gS3"/>
+                        <outlet property="hideCardImageSwitch" destination="aRk-mh-ztH" id="A58-4H-bfw"/>
+                        <outlet property="hideableCardIOView" destination="XJY-8K-iJb" id="EGt-ih-pRo"/>
+                        <outlet property="languageButton" destination="g1J-7k-0mv" id="9vJ-RB-8kM"/>
+                        <outlet property="manualSwitch" destination="bO3-eQ-Ll0" id="k83-6w-ZqV"/>
+                        <outlet property="nameSwitch" destination="qUt-kq-Ymb" id="D2A-gb-Ncu"/>
+                        <outlet property="outcomeLabel" destination="4pz-rb-3wa" id="MDG-NV-zT7"/>
+                        <outlet property="processSwitch" destination="fLp-zV-n4D" id="2aq-15-RAg"/>
+                        <outlet property="redactSwitch" destination="tMl-Ty-Mrw" id="C1s-ly-egd"/>
+                        <outlet property="scanButton" destination="aPu-cQ-ZY1" id="c3R-UV-hoi"/>
+                        <outlet property="scanPicoPikaButton" destination="8LW-tt-YlA" id="ftO-Uz-Yd3"/>
+                        <outlet property="scannedImageDurationField" destination="p6P-3S-IXR" id="heG-rw-wQy"/>
+                        <outlet property="useCardIOLogoSwitch" destination="Zwg-T1-yaq" id="trY-KX-oZi"/>
+                        <outlet property="zipOnlyNumericSwitch" destination="eU5-m3-5kU" id="j0S-K6-arq"/>
+                        <outlet property="zipSwitch" destination="Jcp-wb-prL" id="KHa-ad-sl1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LFu-3q-KgA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="223" y="211"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="card_io_logo_black.png" width="52" height="35"/>
+        <image name="green_button.png" width="120" height="44"/>
+        <image name="yellow_button.png" width="120" height="44"/>
+    </resources>
+</document>
