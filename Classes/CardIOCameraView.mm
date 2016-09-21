@@ -484,7 +484,9 @@
 
 - (void)videoStream:(CardIOVideoStream *)stream didProcessFrame:(CardIOVideoFrame *)processedFrame {
   [self.shutter setOpen:YES animated:YES duration:0.5f];
-
+  
+  NSLog(@"CardIOCameraView--didProcessFrame: %d",processedFrame.numEdgesFound);
+  
   // Hide instructions once we start to find edges
   if (processedFrame.numEdgesFound < 0.05f) {
     [UIView animateWithDuration:kLabelVisibilityAnimationDuration animations:^{self.guideLayerLabel.alpha = 1.0f;}];
